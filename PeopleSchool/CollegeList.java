@@ -14,7 +14,7 @@ public class CollegeList {
 
         do {
             System.out.print("Press 'E' for Employee, 'F' for faculty, or 'S' for student: ");
-            String choice = sc.nextLine();
+            String choice = sc.nextLine().toUpperCase();
 
             switch (choice) {
                 case "E":
